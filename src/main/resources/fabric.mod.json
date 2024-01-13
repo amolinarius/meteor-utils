@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-utils",
+  "version": "${version}",
+  "name": "Meteor Utils",
+  "description": "An Addon adding some cool stuff to Meteor Client",
+  "authors": [
+    "GalaxyMiller",
+    "furiousfurie"
+  ],
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.amolinarius.meteorUtils.Addon"
+    ]
+  },
+  "mixins": [
+    "meteor-utils.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "24,177,224"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
