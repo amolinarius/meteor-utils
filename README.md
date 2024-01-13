@@ -9,6 +9,7 @@ An addon adding some cool stuff to Meteor Client
 - AutoPearl (Automatically throws EnderPearls to other's ones)
 - AutoMLG (Automatically places Water Bucket, Slime Block or Hay Bale)
 - ScaffoldPlus (Imitates a sneak/desneak)
-
+- AutoLog+ (Disconnect when meeting certain conditions)
+  
 ## Contributions
 Thanks to [amolinarius](https://github.com/amolinarius) & [furiousfurie](https://github.com/furiousfurie)
